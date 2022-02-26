@@ -9,4 +9,4 @@ def words_in_both(s1, s2):
     for x in words1:
         if (x in words2) and (x not in result):
             result.append(x)
-    return result
+    return set(result)
